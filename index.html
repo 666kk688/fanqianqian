@@ -7,7 +7,9 @@
 <meta name="description" content="饭签签，用抽签、转盘和盲盒帮学生与打工人决定今天吃什么。">
 <title>饭签签｜今天吃啥，抽一签</title>
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="pages-styles.css">
+<link rel="stylesheet" href="styles-base.css">
+<link rel="stylesheet" href="styles-app.css">
+<link rel="stylesheet" href="styles-ui.css">
 </head>
 <body>
 <a class="skip" href="#main">跳到主要内容</a><div class="noise"></div>
@@ -20,6 +22,7 @@
 <div class="dialog" id="qrDialog"><div class="dialog-card"><button class="close" id="qrClose">×</button><p class="eyebrow">分享给朋友</p><h2>扫码进入饭签签</h2><p>这个网址可以在任何手机上直接打开。</p><div class="qrbox"><img id="qrImage" alt="饭签签网址二维码"></div><a class="urlline" id="publicUrl" href="./"></a><button class="wide" id="copyBtn">复制网址</button></div></div>
 <div class="dialog" id="profileDialog"><div class="dialog-card"><button class="close" id="profileClose">×</button><p class="eyebrow">你的口味 DNA</p><h2>签签记得的你</h2><div id="profileBody"></div><button class="wide" id="resetBtn">重新设置口味</button></div></div>
 <div class="toast" id="toast"></div>
-<script src="pages-app.js"></script>
+<script src="app-data.js"></script>
+<script src="app-ui.js"></script>
 </body>
 </html>
